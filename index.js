@@ -4,7 +4,7 @@ const app=express();
 // app listen incomimg request
 
 app.get('/', (req,res)=>{
-  res.send({hi:'there'})
+  res.send({hey:'bye'})
 } )
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
